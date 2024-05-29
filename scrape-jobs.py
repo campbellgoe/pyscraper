@@ -1,7 +1,7 @@
 import csv
 from jobspy import scrape_jobs
 from datetime import date
-search_term = "three.js"
+search_term = "react.js three.js next.js"
 jobs = scrape_jobs(
     site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"],
     search_term=search_term,
